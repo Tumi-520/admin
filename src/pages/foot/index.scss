@@ -1,0 +1,11 @@
+.foot-wrapper{
+  height: 80px;
+  margin-top: 20px;
+  background-color: rgba($color: #000, $alpha: .1);
+  .foot-title{
+    font-size: 18px;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+  }
+}

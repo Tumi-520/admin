@@ -1,0 +1,11 @@
+.main-wrapper{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  .ant-card{
+    margin: 10px;
+  }
+  .ant-btn{
+    margin: 10px;
+  }
+}

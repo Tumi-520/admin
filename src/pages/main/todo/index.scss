@@ -1,0 +1,39 @@
+.todo-wrapper{
+  border-radius: 8px;
+  overflow: hidden;
+  .add{
+    float: right;
+    margin-right: 28px;
+  } 
+  .todo-list{
+    margin-top: 55px;
+    .done{
+      background: #ccc !important;
+      color: #eee;
+      .text{
+        background-color: #ccc !important;
+      }
+    }
+    .todo{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      margin: 10px 0;
+      border-radius: 8px;
+      .check{
+        zoom: 2;
+        outline: none;
+        border: 0;
+      }
+      .text{
+        outline: none;
+        border: 0;
+        padding: 5px;
+        width: 800px;
+        font-size: 16px;
+        resize:none
+      }
+    }
+  }
+}

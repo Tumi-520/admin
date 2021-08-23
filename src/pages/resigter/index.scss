@@ -1,0 +1,39 @@
+.box {
+  width: 100%;
+  height: 100%;
+
+  .register-wrapper {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    transform: translateY(50%);
+    border-radius: 8px;
+    padding: 100px;
+
+    .register-form {
+      text-align: center;
+    }
+  }
+}
+
+#components-form-demo-normal-register .register-form {
+  max-width: 300px;
+}
+
+#components-form-demo-normal-register .register-form-forgot {
+  float: right;
+}
+
+#components-form-demo-normal-register .ant-col-rtl .register-form-forgot {
+  float: left;
+}
+
+#components-form-demo-normal-register .register-form-button {
+  width: 100%;
+}
+
+.ant-form-item-control-input-content {
+  display: flex;
+  justify-content: space-around;
+}
